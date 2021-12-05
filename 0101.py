@@ -16,5 +16,5 @@ for line in input:
   prev = num
 
 
-print count
-print count2
+print(count)
+print(count2)
