@@ -26,6 +26,6 @@ for i in range(len(arr)):
           if l<len(arr[k])-1 and arr[k][l+1]>itemVal:
             toVisit.append((k,l+1))
       sizes.append(len(visited))
-sortedSizes = sorted(sizes,reverse=True)
-print(sortedSizes[0]*sortedSizes[1]*sortedSizes[2])
+sizes.sort(reverse=True)
 print(cnt)
+print(sizes[0]*sizes[1]*sizes[2])
