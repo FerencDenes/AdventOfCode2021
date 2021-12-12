@@ -56,5 +56,14 @@ def traverse2():
   if cave.lower()==cave and route.__contains__(cave):
     twice = False
 
+route = ["start"]
+cnt2=0
+twice = False
+traverse2()
+print(cnt2)
+
+route = ["start"]
+cnt2=0
+twice = True
 traverse2()
 print(cnt2)
